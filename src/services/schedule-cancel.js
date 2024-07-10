@@ -8,5 +8,6 @@ export async function scheduleCancel({ id }) {
     alert("Agendamento excluído com sucesso")
   } catch (error) {
     alert(error)
+    console.log(error);
   }
 }
